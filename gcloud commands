@@ -1,0 +1,4 @@
+
+
+gcloud container clusters get-credentials c4p-internal --zone europe-west1-b --project c4p-dev \
+  && kubectl exec dvs-6df69d7bfc-jg7kv --namespace dev -c dvs -- ls
